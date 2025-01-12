@@ -8,4 +8,28 @@
     height: 100vh;
     background-position: center;
     background-size: cover;
+    position: relative;
+ }
+ .snow {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: snow 10s linear;
+ }
+
+ @keyframes snow {
+    0% {
+        opacity: 0;
+        top: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        top: 100vh;
+    }
  }
