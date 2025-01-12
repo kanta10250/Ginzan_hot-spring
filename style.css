@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ .snow-container {
+    background-image: url(img/snow.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+ }
